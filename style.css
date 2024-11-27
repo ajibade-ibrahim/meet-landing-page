@@ -191,7 +191,7 @@ nav {
 .hero-content h1 {
     width: 44.8rem;
 
-    @media screen and (max-width: 478px){
+    @media screen and (max-width: 478px) {
         width: 100%;
     }
 }
@@ -327,7 +327,7 @@ footer .btn-number {
 .footer-hero {
     width: 100%;
     background-image: url('assets/desktop/image-footer.jpg');
-    z-index: -1;
+    z-index: 0;
 }
 
 .footer-hero-wrapper {
@@ -396,6 +396,10 @@ button {
     border-radius: 2.9rem;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .btn-number {
     width: 5.6rem;
     height: 5.6rem;
@@ -408,7 +412,7 @@ button {
     background-color: var(--cyan-600);
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: var(--cyan-hover);
 }
 
@@ -416,7 +420,7 @@ button {
     background-color: var(--purple-600);
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     background-color: var(--purple-hover);
 }
 
