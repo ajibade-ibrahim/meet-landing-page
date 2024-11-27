@@ -245,6 +245,8 @@ nav {
     border: 0.1rem solid var(--slate-300);
     border-radius: 50%;
     align-content: center;
+    font-size: 1.6rem;
+    font-weight: 900;
 }
 
 .collage {
