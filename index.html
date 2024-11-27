@@ -1,31 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Meet landing page</title>
 </head>
 <body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+    <main class="container">
+        <nav>
+            <img class="logo" src="assets/logo.svg" alt="">
+        </nav>
+        <section class="hero">
+            <div class="faces-left">
+                <picture>
+                    <source media="(max-width: 1200px)" srcset="assets/tablet/image-hero.png">
+                    <img src="assets/desktop/image-hero-left.png" alt="hero image">
+                </picture>
+            </div>
+            <div class="hero-content">
+                <h1>Group Chat for Everyone</h1>
+                <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any
+                    device.</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary">Download <span>v1.3</span></button>
+                    <button class="btn btn-secondary">What is it?</button>
+                </div>
+            </div>
+            <div class="faces-right">
+                <img src="assets/desktop/image-hero-right.png" alt="hero right">
+            </div>
+        </section>
+        <section class="content">
+            <div class="content-body">
+                <div class="number-separator">
+                    <hr class="separator"/>
+                    <div class="number">
+                        01
+                    </div>
+                </div>
+                <div class="collage">
+                    <div><img src="assets/desktop/image-woman-in-videocall.jpg" alt="woman-in-videocall"></div>
+                    <div><img src="assets/desktop/image-women-videochatting.jpg" alt="women-videochatting"></div>
+                    <div><img src="assets/desktop/image-men-in-meeting.jpg" alt="men-in-meeting"></div>
+                    <div><img src="assets/desktop/image-man-texting.jpg" alt="man-texting"></div>
+                </div>
+                <div class="content-text">
+                    <div class="title">
+                        <h3>Built for modern use</h3>
+                        <h2>Smarter meetings, all in one place</h2>
+                    </div>
+                    <p>
+                        Send messages, share files, show your screen, and record your meetings — all in one
+                        workspace. Control who can join with invite-only team access, data encryption, and data
+                        export.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="number-separator">
+                <hr class="separator"/>
+                <div class="number">
+                    02
+                </div>
+            </div>
+            <div class="footer-hero">
+                <div class="footer-hero-wrapper">
+                    <div class="footer-hero-content">
+                        <h2>Experience more together</h2>
+                        <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video
+                            sessions.</p>
+                        <div class="footer-hero-cta">
+                            <button class="btn btn-secondary">
+                                Download <span>v1.3</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  Download v1.3
-  What is it?
-
-  01
-  Built for modern use
-
-  Smarter meetings, all in one place
-
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-  Download v1.3
+        </footer>
+    </main>
 </body>
 </html>
